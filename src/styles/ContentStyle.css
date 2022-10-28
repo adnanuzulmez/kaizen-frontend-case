@@ -1,0 +1,137 @@
+.contentContainer {
+    margin: 50px 16%;
+    background-color: white;
+    border-radius: 2rem;
+    position: relative;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    
+}
+
+.contentImage {
+    height: 400px;
+    width: 45%;
+    padding: 40px;
+    position: relative;
+}
+
+.contentText{
+    width: 55%;
+    height: 380px;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin: 50px 20px 20px 0 ;
+    
+}
+
+.contentText::-webkit-scrollbar{
+    width: 8px;
+    
+}
+
+.contentText::-webkit-scrollbar-thumb{
+    background-color: rgb(209, 209, 209);
+     border-radius: 20px;
+}
+
+.contentImage img.mainImage{
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem 2rem 2rem 30%;
+    border: 1px solid rgb(207, 207, 207) !important;
+    object-fit: cover;
+}
+
+.contentImage img.imageIcon{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    width: 90px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0;
+}
+
+.codeButtonSection{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: flex-end;
+    top: 82%;
+    
+}
+
+.codeButton{
+    margin: 0 40px 0 0;
+    width: 49%;
+    padding: 16px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: rgba(255, 255, 255, 0.881) 0px -10px 19px 20px;
+}
+
+.contentProduct{
+    margin: -20px 0 20px 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentProduct h4{
+    margin: 5px 0px 5px 10px;
+}
+
+.products{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.productCard{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 160px;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 15px;
+    margin: 0px 5px;
+    text-align: center;
+}
+
+.productImage {
+    width: 80px;
+    padding: 10px 0 0 10px;
+}
+
+.productTitle{
+    font-size: 12px;
+    
+    margin: 10px 0 5px 0 ;
+}
+
+.productDescription{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(12, 115, 12);
+    letter-spacing: -.6px;
+}
+
+.remainingTime{
+    position: relative;
+    left: 75%;
+    bottom: 60px;
+    padding: 6px 12px;
+    width: 60px;
+    border-radius: 20px;
+    background-color: black;
+    font-size: 13px;
+    color: #fff;
+}

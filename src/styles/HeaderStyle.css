@@ -1,0 +1,59 @@
+.headerContainer{
+    margin: 0 13%;
+    padding: 18px 5%;
+    background-color: #fff;
+    border-bottom-left-radius: 3rem ;
+    border-bottom-right-radius: 3rem ;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 15px;
+}
+
+
+.logo a .logoImg{
+    width: 80px;
+}
+
+.accountProcess{
+    display: flex;
+}
+
+.accountProcess button{
+    border: none;
+    margin: 0px 5px 0px 5px;
+}
+
+.headerMainBtn{
+    height: 40px;
+    padding: 0px 30px ;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.wallet{
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: .3px;
+    padding: 0px 20px;
+    color: rgb(255, 0, 0);
+    background-color: #fff;
+    border: 1px solid rgb(207, 207, 207) !important;
+}
+
+.loginSignin{
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    font-size: 15px;
+}
+
+.userIcon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+}

@@ -1,0 +1,83 @@
+@media only screen and (max-width: 1500px) {
+    .headerContainer{
+        margin: 0 !important;
+    }
+    .contentContainer{
+        margin: 50px 5% !important;
+    }
+  }
+
+  @media only screen and (max-width: 1040px) {
+    .contentContainer{
+        margin: 50px 1% !important;
+    }
+    .codeButton{
+        margin: 0 30px 0 0 !important;
+        box-shadow: rgba(255, 255, 255, 0.881) 0px -10px 19px 5px !important;
+    }
+    .remainingTime{
+        left: 65% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 676px) {
+    .headerContainer{
+        display: none !important;
+    }
+    .contentContainer{
+       margin: 0 !important;
+       border-radius: 0 !important;
+       overflow-x: hidden;
+    }
+    .content{
+        flex-direction: column !important;
+        
+    }
+    .contentImage{
+        padding: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+    }
+    .mainImage{
+        border-radius: 0 0 0 30% !important;
+    }
+
+    .imageIcon{
+        left: 10px !important;
+        bottom: 20px !important;
+        width: auto !important;
+    }
+    .codeButtonSection{
+        position: fixed !important;
+        z-index: 999 !important;
+        top: 92% !important;
+        width: 97% !important;
+        margin: 0 5px !important;
+    }
+    .contentText{
+        
+        width: 100% !important;
+        margin: 10px !important;
+        overflow-x: hidden !important;
+    }
+    .codeButton{
+        width: 100% !important;
+        margin: 0 !important;
+        box-shadow: none !important;
+        overflow: hidden;
+    }
+
+    .contentProduct{
+        margin: 0 0 30px 0 !important;
+    }
+
+    .products{
+        flex-wrap: wrap;
+    }
+    .remainingTime{
+        left: 75% !important;
+    }
+  }
+ 
+  
+  
