@@ -1,5 +1,5 @@
 import axios from "axios";
-const api = 'https://api.extrazone.com/promotions?Id=33'
+import { api } from "../constants";
 export const getContentData = async () =>{
     const { data } = await axios.get(api,{
         headers: {

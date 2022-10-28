@@ -1,0 +1,1 @@
+export const api = 'https://api.extrazone.com/promotions?Id=33'
