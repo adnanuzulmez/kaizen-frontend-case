@@ -77,6 +77,13 @@
     .remainingTime{
         left: 75% !important;
     }
+    .backArrow{
+        opacity: 1 !important;
+        width: 45px;
+        border-radius: 50%;
+        left: 25px;
+        bottom: 80%;
+    }
   }
  
   

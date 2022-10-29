@@ -2,16 +2,16 @@ import React, { useEffect, useState } from 'react'
 import { getContentData } from '../services/api'
 import '../styles/MediaStyle.css'
 import '../styles/ContentStyle.css'
+
 const Content = () => {
     const [contentData, setContentData] = useState({})
-    useEffect(() => {
-      const getData = async () => {
+    const getData = async () => {
         const allData = await getContentData();
         setContentData(allData);
         console.log(contentData);
       }
+    useEffect(() => {
       getData();
-      
     }, [])
     
   return (
@@ -21,6 +21,7 @@ const Content = () => {
                 <img className='mainImage' src={contentData.ImageUrl} alt="" />
                 <img className='imageIcon' src={contentData.BrandIconUrl} alt="" />
                 <div className='remainingTime'>{contentData.RemainingText}</div>
+                <img className='backArrow' src="/back-arrow.png" alt="" />
             </div>
             <div className='contentText'>
                 <h2 dangerouslySetInnerHTML={{__html: contentData.Title}}></h2>
